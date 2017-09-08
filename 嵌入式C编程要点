@@ -1,0 +1,4 @@
+关键字static,const,volitate,extern
+按位或，置位
+按位与，取反，清零
+C语言可以访问物理地址，读写数据
