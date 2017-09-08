@@ -1,0 +1,23 @@
+一、GPIO接口复用功能：通过配置GPIO接口寄存器来选择我们想要的功能。
+
+二、GPIO接口寄存器：
+每个通用I/O口都有4个32位配置寄存器（GPIOx_MODER,GPIOx_OTYPER,GPIOx_OSPEEDR 和 GPIOx_PUPDR），
+2个32位数据寄存器（GPIOx_IDR,GPIOx_ODR）
+1个32位置位／复位寄存器GPIOx_BSRR
+1个32位端口复位寄存器GPIOx_BRR
+
+A口和B口还含有1个32位锁定寄存器GPIOx_LCKR和2个32位复位功能寄存器（GPIOx_AFRH和GPIOx_AFRL）
+
+三、前提工作——————GPIO接口时钟的打开和关闭
+AHB外部时钟使能寄存器（RCC_AHBENR）
+APB2外设时钟使能寄存器（RCC_APB2ENR）
+APB1外设时钟使能寄存器（RCC_APB1ENR）
+
+
+
+
+
+
+
+
+
